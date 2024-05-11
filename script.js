@@ -26,7 +26,7 @@ function showPopup(bool) {
     document.getElementById('popup').style.visibility = 'hidden'
   }
 }
-
+console.log("text")
 document.addEventListener("DOMContentLoaded", function() {
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
